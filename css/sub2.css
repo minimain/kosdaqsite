@@ -89,10 +89,11 @@ p.essential{text-align: right;}
 p.essential>span{color: red;}
 form{width: 100%;border-top: 2px solid #272727;}
 form dl{display: flex;flex-direction: row;line-height: 50px;border-bottom: 1px solid #ccc;}
-form dl>dt{background:#e7e7e7;width: 200px;text-indent: 20px;}
+form dl>dt{background:#e7e7e7;width: 200px;text-indent: 20px;line-height: 80px;}
 form dl>dd{padding-left: 20px;width: 100%;}
 form dl dt span{color: red;}
 form dl>dd input{width: 300px;height: 36px;margin: 20px 0;box-sizing: border-box;}
+form dl>dd input:first-of-type[type="text"]{width: 300px;}
 form dl>dd input[type="text"]{width: 98%;box-sizing: border-box;}
 form dl>dd>textarea{margin-top: 20px;width: 98%;height: 300px;box-sizing: border-box;}
 form>fieldset>p{text-align: center;margin-top: 40px;}
@@ -194,10 +195,11 @@ p.essential{text-align: right;margin-right: 30px;}
 p.essential>span{color: red;}
 form{width: 90%;border-top: 2px solid #272727;margin-left: 70px;}
 form dl{display: flex;flex-direction: row;line-height: 50px;border-bottom: 1px solid #ccc;}
-form dl>dt{background:#e7e7e7;width: 200px;text-indent: 20px;}
+form dl>dt{background:#e7e7e7;width: 200px;text-indent: 20px;line-height: 70px;}
 form dl>dd{padding-left: 20px;width: 100%;}
 form dl dt span{color: red;}
 form dl>dd input{width: 300px;height: 36px;margin: 20px 0;box-sizing: border-box;}
+form dl>dd input:first-of-type[type="text"]{width: 300px;}
 form dl>dd input[type="text"]{width: 98%;box-sizing: border-box;}
 form dl>dd>textarea{margin-top: 20px;width: 98%;height: 300px;box-sizing: border-box;}
 form>fieldset>p{text-align: center;margin-top: 40px;}
@@ -259,7 +261,7 @@ margin: 0 17px}
 /* 탑메뉴 hover */
 .topMenu>ul>li>div>ul>li:hover>a{color: #fff;}
 .topMenu>ul>li>div>ul>li:hover>ul{display: block;}
-.topMenu>ul>li>div>ul>li>ul>li>a{transition: color 0.2s linear 0s;color: #b7b7b7;font-size: 14px;line-height: 25px;margin: 0 10p;}
+.topMenu>ul>li>div>ul>li>ul>li>a{transition: color 0.2s linear 0s;color: #b7b7b7;font-size: 14px;line-height: 25px;margin: 0 10px;}
 .topMenu>ul>li>div>ul>li>ul>li:hover>a{color: #fff;}  
 /* container */
 .spot{position: relative;top: 70px;background: url(../img/svisual05.jpg)no-repeat 0 0;width: 100vw;height: 280px;}
@@ -295,10 +297,11 @@ p.essential{text-align: right;margin-right: 90px;font-size: 14px;}
 p.essential>span{color: red;}
 form{width: 90%;border-top: 2px solid #272727;font-size: 15px;}
 form dl{display: flex;flex-direction: row;line-height: 45px;border-bottom: 1px solid #ccc;}
-form dl>dt{background:#e7e7e7;width: 200px;text-indent: 20px;}
+form dl>dt{background:#e7e7e7;width: 200px;text-indent: 20px;line-height: 60px;}
 form dl>dd{padding-left: 20px;width: 100%;}
 form dl dt span{color: red;}
 form dl>dd input{width: 300px;height: 30px;margin: 15px 0;box-sizing: border-box;}
+form dl>dd input:first-of-type[type="text"]{width: 300px;}
 form dl>dd input[type="text"]{width: 98%;box-sizing: border-box;}
 form dl>dd>textarea{margin-top: 15px;width: 98%;height: 250px;box-sizing: border-box;}
 form>fieldset>p{text-align: center;margin-top: 30px;font-size: 14px;}
@@ -417,10 +420,11 @@ p.essential{text-align: right;margin-right: 90px;font-size: 14px;}
 p.essential>span{color: red;}
 form{width: 95%;border-top: 2px solid #272727;font-size: 15px;}
 form dl{display: flex;flex-direction: row;line-height: 45px;border-bottom: 1px solid #ccc;}
-form dl>dt{background:#e7e7e7;width: 200px;text-indent: 20px;}
+form dl>dt{background:#e7e7e7;width: 200px;text-indent: 20px;line-height: 60px;}
 form dl>dd{padding-left: 20px;width: 100%;}
 form dl dt span{color: red;}
 form dl>dd input{width: 300px;height: 30px;margin: 15px 0;box-sizing: border-box;}
+form dl>dd input:first-of-type[type="text"]{width: 300px;}
 form dl>dd input[type="text"]{width: 98%;box-sizing: border-box;}
 form dl>dd>textarea{margin-top: 15px;width: 98%;height: 250px;box-sizing: border-box;}
 form>fieldset>p{text-align: center;margin-top: 30px;font-size: 14px;}
@@ -550,6 +554,7 @@ form dl>dt{background:#e7e7e7;width: 110px;text-indent: 12px;}
 form dl>dd{padding-left: 20px;width: 100%;}
 form dl dt span{color: red;}
 form dl>dd input{width: 200px;height: 25px;margin: 12px 0;box-sizing: border-box;}
+form dl>dd input:first-of-type[type="text"]{width: 200px;}
 form dl>dd input[type="text"]{width: 98%;box-sizing: border-box;}
 form dl>dd>textarea{margin-top: 15px;width: 98%;height: 200px;box-sizing: border-box;}
 form>fieldset>p{text-align: center;margin-top: 25px;font-size: 12px;}
