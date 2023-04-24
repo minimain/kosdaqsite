@@ -84,9 +84,10 @@ transition: all 0.1s linear 0s;}
 .subBanner>p>i{color: #038BD3;}
 form{background: #f4f4f4;border-radius: 5px;margin: 35px 0 60px}
 form>fieldset>dl{display: flex;justify-content: center;flex-direction: row;}
-form select{width: 100px;height: 40px;border: 1px solid #ccc;margin: 15px 10px;box-sizing: border-box;text-indent: 7px;border-radius: 7px;font-size: 15px;color: #a7a7a7;font-weight: bold;border: 1.5px solid #dcdcdc;}
+form select{width: 100px;height: 40px;border: 1px solid #ccc;margin: 15px 10px;box-sizing: border-box;text-indent: 7px;border-radius: 7px;font-size: 15px;
+  color: #252525;font-weight: bold;border: 1.5px solid #dcdcdc;}
 form input::placeholder{color: #a7a7a7;}
-form input{width: 400px;height: 40px;margin: 15px 0;box-sizing: border-box;color: #a7a7a7;font-weight: bold;border: 1.5px solid #dcdcdc;border-radius: 5px;text-indent: 8px;}
+form input{width: 400px;height: 40px;margin: 15px 0;box-sizing: border-box;color: #262626;font-weight: bold;border: 1.5px solid #dcdcdc;border-radius: 5px;text-indent: 8px;}
 form dd:last-of-type>a{display: block;width: 85px;line-height: 41px;background:#002849;margin: 15px 10px;text-align: center;color: #fff;border-radius: 3px;}
 .sub2_table_wrap{position: relative;width: 100%;}
 table.assign_table{width: 100%;border-bottom: 1px solid #ccc;}
@@ -233,8 +234,8 @@ margin: 0 17px}
 form{background: #f4f4f4;border-radius: 5px;margin: 35px 30px 60px 70px;}
 form>fieldset>dl{display: flex;justify-content: center;flex-direction: row;}
 form input::placeholder{color: #a7a7a7;}
-form select{width: 100px;height: 40px;border: 1px solid #ccc;margin: 15px 10px;box-sizing: border-box;text-indent: 7px;border-radius: 7px;font-size: 15px;color: #a7a7a7;font-weight: bold;border: 1.5px solid #dcdcdc;}
-form input{width: 400px;height: 40px;margin: 15px 0;box-sizing: border-box;color: #a7a7a7;font-weight: bold;border: 1.5px solid #dcdcdc;border-radius: 5px;text-indent: 8px;}
+form select{width: 100px;height: 40px;border: 1px solid #ccc;margin: 15px 10px;box-sizing: border-box;text-indent: 7px;border-radius: 7px;font-size: 15px;color: #252525;font-weight: bold;border: 1.5px solid #dcdcdc;}
+form input{width: 400px;height: 40px;margin: 15px 0;box-sizing: border-box;color: #262626;font-weight: bold;border: 1.5px solid #dcdcdc;border-radius: 5px;text-indent: 8px;}
 form dd:last-of-type>a{display: block;width: 85px;line-height: 41px;background:#002849;margin: 15px 10px;text-align: center;color: #fff;border-radius: 3px;}
 .sub2_table_wrap{position: relative;width: 100%;}
 table.assign_table{width: 90%;border-bottom: 1px solid #ccc;margin-left: 70px;}
@@ -345,9 +346,9 @@ margin: 0 17px}
 .subBanner>p>i{color: #038BD3;}
 form{width: 90%;background: #f4f4f4;border-radius: 5px;margin: 35px 18px 60px 0px;}
 form>fieldset>dl{display: flex;justify-content: center;flex-direction: row;}
-form select{width: 100px;height: 40px;border: 1px solid #ccc;margin: 15px 10px;box-sizing: border-box;text-indent: 7px;border-radius: 7px;font-size: 15px;color: #a7a7a7;font-weight: bold;border: 1.5px solid #dcdcdc;}
+form select{width: 100px;height: 40px;border: 1px solid #ccc;margin: 15px 10px;box-sizing: border-box;text-indent: 7px;border-radius: 7px;font-size: 15px;color: #252525;font-weight: bold;border: 1.5px solid #dcdcdc;}
 form input::placeholder{color: #a7a7a7;}
-form input{width: 400px;height: 40px;margin: 15px 0;box-sizing: border-box;color: #868686;font-weight: bold;border: 1.5px solid #dcdcdc;border-radius: 5px;text-indent: 8px;}
+form input{width: 400px;height: 40px;margin: 15px 0;box-sizing: border-box;color: #262626;font-weight: bold;border: 1.5px solid #dcdcdc;border-radius: 5px;text-indent: 8px;}
 form dd:last-of-type>a{display: block;width: 85px;line-height: 41px;background:#002849;margin: 15px 10px;text-align: center;color: #fff;border-radius: 3px;}
 .sub2_table_wrap{position: relative;width: 90%;overflow-x: auto;}
 table.assign_table{width: 900px;border-bottom: 1px solid #ccc;overflow-x: auto;margin-right: 20px;}
@@ -481,7 +482,7 @@ text-align: center;line-height: 65px;color: #fff;}
 form{width: 96%;background: #f4f4f4;border-radius: 5px;margin: 35px 18px 60px 0px;}
 form>fieldset>dl{display: flex;justify-content: center;flex-direction: row;}
 /* form>fieldset>dl>dd>select{width: 100px;} */
-form select{width: 100px;height: 40px;border: 1px solid #ccc;margin: 15px 10px;box-sizing: border-box;text-indent: 7px;border-radius: 7px;font-size: 15px;color: #a7a7a7;font-weight: bold;border: 1.5px solid #dcdcdc;}
+form select{width: 100px;height: 40px;border: 1px solid #ccc;margin: 15px 10px;box-sizing: border-box;text-indent: 7px;border-radius: 7px;font-size: 15px;color:  #262626;;font-weight: bold;border: 1.5px solid #dcdcdc;}
 form input::placeholder{color: #a7a7a7;}
 form input{width: 400px;height: 40px;margin: 15px 0;box-sizing: border-box;color: #868686;font-weight: bold;border: 1.5px solid #dcdcdc;border-radius: 5px;text-indent: 8px;}
 form dd:last-of-type>a{display: block;width: 85px;line-height: 41px;background:#002849;margin: 15px 10px;text-align: center;color: #fff;border-radius: 3px;}
@@ -623,9 +624,9 @@ text-align: center;line-height: 50px;color: #fff;}
 .subBanner>.path{position: absolute;right: 15px;top: 40px;font-size: 13px;margin: 0 auto;text-align: center;width: 96%;word-spacing:5px;}
 .subBanner>p>i{color: #038BD3;font-size: 12px;}
 form{width: 96%;background: #f4f4f4;border-radius: 5px;margin: 35px 18px 20px 0px;}
-form select{width: 90px;height: 30px;margin: 10px 10px;box-sizing: border-box;text-indent: 7px;border-radius: 7px;font-size: 13px;color: #a7a7a7;font-weight: bold;border: 1.5px solid #dcdcdc;font-weight: normal;}
+form select{width: 90px;height: 30px;margin: 10px 10px;box-sizing: border-box;text-indent: 7px;border-radius: 7px;font-size: 13px;color: #a7a7a7;font-weight: bold;border: 1.5px solid #dcdcdc;font-weight: normal;color: #252525;}
 form input::placeholder{color: #a7a7a7;}
-form input{width: 80%;height: 30px;margin-left: 10px;box-sizing: border-box;color: #a7a7a7;font-weight: bold;border: 1.5px solid #dcdcdc;border-radius: 5px;text-indent: 8px;font-weight: normal;}
+form input{width: 80%;height: 30px;margin-left: 10px;box-sizing: border-box;color: #262626;font-weight: bold;border: 1.5px solid #dcdcdc;border-radius: 5px;text-indent: 8px;font-weight: normal;}
 form dd:last-of-type>a{display: block;width:60px;line-height: 30px;background:#002849;margin:5px auto;text-align: center;color: #fff;border-radius: 3px;font-size: 12px;margin-bottom: 15px;}
 .sub2_table_wrap{position: relative;width: 96%;overflow-x: auto;font-size: 13px;}
 table.assign_table{width: 800px;border-bottom: 1px solid #ccc;overflow-x: auto;margin-right: 20px;}
