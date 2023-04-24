@@ -232,12 +232,12 @@ background: url(../img/bg_mc02_01.jpg) no-repeat 0 -20px;}
 .con2_box4>a>dl>dt{font-size: 28px;font-weight: bold;}
 
 /* 플러스 버튼 */
-.con2_box1>a>dl>i,
-.con2_box2>a>dl>i{display: inline-block;background: #fff;width: 40px;height: 40px;border-radius: 50%;margin-top: 30px;border: transparent;}
+.con2_box1>a>dl>dd>i,
+.con2_box2>a>dl>dd>i{display: inline-block;background: #fff;width: 40px;height: 40px;border-radius: 50%;margin-top: 30px;border: transparent;}
 .con2_box3>a>dl>dd>i,
 .con2_box4>a>dl>dd>i{display: inline-block;width: 40px;height: 40px;background: #eeeeee;border-radius: 50%;margin-top: 25px;border: transparent;}
-.con2_box1>a>dl>i::before,
-.con2_box2>a>dl>i::before,
+.con2_box1>a>dl>dd>i::before,
+.con2_box2>a>dl>dd>i::before,
 .con2_box3>a>dl>dd>i::before,
 .con2_box4>a>dl>dd>i::before{display: inline-block;width: 40px;height: 40px;font-size: 20px;text-align: center;line-height: 40px;color:#5a5a5a;}
 
@@ -597,17 +597,19 @@ background: url(../img/bg_mc02_01.jpg) no-repeat 0 -20px;}
 .con2_box4>a>dl>dt{font-size: 27px;font-weight: bold;}
 
 /* 플러스 버튼 */
-.con2_box1>a>dl>span>i,
-.con2_box2>a>dl>span>i{display: inline-block;background: #fff;width: 40px;height: 40px;border-radius: 50%;margin-top: 30px;border: transparent;cursor: pointer;}
-.con2_box3>a>dl>span>i,
-.con2_box4>a>dl>span>i{display: inline-block;width: 40px;height: 40px;background: #eeeeee;border-radius: 50%;margin-top: 25px;border: transparent;}
-.con2_box1>a>dl>span>i::before,
-.con2_box2>a>dl>span>i::before,
-.con2_box3>a>dl>span>i::before,
-.con2_box4>a>dl>span>i::before{display: inline-block;width: 40px;height: 40px;font-size: 20px;text-align: center;line-height: 40px;color:#5a5a5a;}
+.con2_box1>a>dl>dd>i,
+.con2_box2>a>dl>dd>i{display: inline-block;background: #fff;width: 40px;height: 40px;border-radius: 50%;margin-top: 30px;border: transparent;cursor: pointer;}
+.con2_box3>a>dl>dd>i,
+.con2_box4>a>dl>dd>i{display: inline-block;width: 40px;height: 40px;background: #eeeeee;border-radius: 50%;margin-top: 25px;border: transparent;}
+.con2_box1>a>dl>dd>i::before,
+.con2_box2>a>dl>dd>i::before,
+.con2_box3>a>dl>dd>i::before,
+.con2_box4>a>dl>dd>i::before{display: inline-block;width: 40px;height: 40px;font-size: 20px;text-align: center;line-height: 40px;color:#5a5a5a;}
 /* 플러스 버튼 색상 변경 */
-.icon1.on>a>dl>span>i::before{color: #fff;}
-.icon1.on>a>dl>span>i{background: linear-gradient(to bottom right,#0bbbdb,#008bc7);}
+.icon1.on>a>dl>i::before,
+.icon1.on>a>dl>dd>i::before{color: #fff;}
+.icon1.on>a>dl>i,
+.icon1.on>a>dl>dd>i{background: linear-gradient(to bottom right,#0bbbdb,#008bc7);}
 
 /* con2_box5 배너리스트 */
 .con2_box5{position: relative;grid-column: 1/-1;grid-row: 4/-1;
@@ -962,18 +964,20 @@ background: url(../img/bg_mc02_01.jpg) no-repeat 0 0;}
 .con2_box4>a>dl>dt{font-size: 26px;font-weight: bold;}
 
 /* 플러스 버튼 */
-.con2_box1>a>dl>span>i,
-.con2_box2>a>dl>span>i{display: inline-block;background: #fff;width: 40px;height: 40px;border-radius: 50%;margin-top: 30px;border: transparent;cursor: pointer;}
-.con2_box3>a>dl>span>i,
-.con2_box4>a>dl>span>i{display: inline-block;width: 40px;height: 40px;background: #eeeeee;border-radius: 50%;margin-top: 50px;border: transparent;}
-.con2_box1>a>dl>span>i::before,
-.con2_box2>a>dl>span>i::before,
-.con2_box3>a>dl>span>i::before,
-.con2_box4>a>dl>span>i::before{display: inline-block;width: 40px;height: 40px;font-size: 20px;text-align: center;line-height: 40px;color:#5a5a5a;}
+.con2_box1>a>dl>dd>i,
+.con2_box2>a>dl>dd>i{display: inline-block;background: #fff;width: 40px;height: 40px;border-radius: 50%;margin-top: 30px;border: transparent;cursor: pointer;}
+.con2_box3>a>dl>dd>i,
+.con2_box4>a>dl>dd>i{display: inline-block;width: 40px;height: 40px;background: #eeeeee;border-radius: 50%;margin-top: 50px;border: transparent;}
+.con2_box1>a>dl>dd>i::before,
+.con2_box2>a>dl>dd>i::before,
+.con2_box3>a>dl>dd>i::before,
+.con2_box4>a>dl>dd>i::before{display: inline-block;width: 40px;height: 40px;font-size: 20px;text-align: center;line-height: 40px;color:#5a5a5a;}
 
 /* 플러스 버튼 색상 변경 */
-.icon1.on>a>dl>span>i::before{color: #fff;}
-.icon1.on>a>dl>span>i{background: linear-gradient(to bottom right,#0bbbdb,#008bc7);}
+.icon1.on>a>dl>i::before,
+.icon1.on>a>dl>dd>i::before{color: #fff;}
+.icon1.on>a>dl>i,
+.icon1.on>a>dl>dd>i{background: linear-gradient(to bottom right,#0bbbdb,#008bc7);}
 /* con2_box5 배너리스트 */
 .con2_box5{position: relative;grid-column: 1/-1;grid-row: 4/-1;margin-top: 30px;background: #fff;margin-right: 20px;}
 .con2_box5>.banner_Wrap{position: absolute;left: 0;top:0;width: 100%;height: 100%;padding: 20px 30px 26px 38px;box-sizing: border-box;}
@@ -1341,18 +1345,20 @@ background: url(../img/bg_mc02_01.jpg) no-repeat 0 0;}
 .con2_box4>a>dl>dt{font-size: 26px;font-weight: bold;}
 
 /* 플러스 버튼 */
-.con2_box1>a>dl>span>i,
-.con2_box2>a>dl>span>i{display: inline-block;background: #fff;width: 40px;height: 40px;border-radius: 50%;margin-top: 30px;border: transparent;cursor: pointer;}
-.con2_box3>a>dl>span>i,
-.con2_box4>a>dl>span>i{display: inline-block;width: 40px;height: 40px;background: #eeeeee;border-radius: 50%;margin-top: 50px;border: transparent;}
-.con2_box1>a>dl>span>i::before,
-.con2_box2>a>dl>span>i::before,
-.con2_box3>a>dl>span>i::before,
-.con2_box4>a>dl>span>i::before{display: inline-block;width: 40px;height: 40px;font-size: 20px;text-align: center;line-height: 40px;color:#5a5a5a;}
+.con2_box1>a>dl>dd>i,
+.con2_box2>a>dl>dd>i{display: inline-block;background: #fff;width: 40px;height: 40px;border-radius: 50%;margin-top: 30px;border: transparent;cursor: pointer;}
+.con2_box3>a>dl>dd>i,
+.con2_box4>a>dl>dd>i{display: inline-block;width: 40px;height: 40px;background: #eeeeee;border-radius: 50%;margin-top: 50px;border: transparent;}
+.con2_box1>a>dl>dd>i::before,
+.con2_box2>a>dl>dd>i::before,
+.con2_box3>a>dl>dd>i::before,
+.con2_box4>a>dl>dd>i::before{display: inline-block;width: 40px;height: 40px;font-size: 20px;text-align: center;line-height: 40px;color:#5a5a5a;}
 
 /* 플러스 버튼 색상 변경 */
-.icon1.on>a>dl>span>i::before{color: #fff;}
-.icon1.on>a>dl>span>i{background: linear-gradient(to bottom right,#0bbbdb,#008bc7);}
+.icon1.on>a>dl>i::before,
+.icon1.on>a>dl>dd>i::before{color: #fff;}
+.icon1.on>a>dl>i,
+.icon1.on>a>dl>dd>i{background: linear-gradient(to bottom right,#0bbbdb,#008bc7);}
 /* con2_box5 배너리스트 */
 .con2_box5{position: relative;grid-column: 1/-1;grid-row: 4/-1;
 margin-top: 30px;background: #fff;margin-right: 20px;margin-bottom: 5px;}
@@ -1466,8 +1472,8 @@ section:nth-of-type(4){background: url(../img/bg_mc04.jpg)no-repeat 0 0;width: 1
 .content4>.con4_box2{padding: 20px 20px 20px;border-radius: 20px;background: #fff;}
 .con4_box1>h3,
 .con4_box2>h3{display: inline-block;font-size: 22px;font-weight: bold;margin-bottom: 22px;position: absolute;}
-.con4_box1>span{position: absolute;left: 360px;margin-bottom: 20px;}
-.con4_box2>span{position: absolute;left: 760px;margin-bottom: 20px;}
+.con4_box1>span{float: right;}
+.con4_box2>span{float: right;}
 .con4_box1>table,
 .con4_box2>table{width: 500px;margin-top: 50px;}
 .con4_box1>table>thead,
@@ -1687,18 +1693,20 @@ section:nth-of-type(2).up{height: 900px;}
 .con2_box3>a>dl>dt, 
 .con2_box4>a>dl>dt{font-size: 17px;font-weight: bold;}
 /* 플러스 버튼 */
-.con2_box1>a>dl>span>i,
-.con2_box2>a>dl>span>i{display: inline-block;background: #fff;width: 24px;height: 24px;border-radius: 50%;margin-top: 15px;border: transparent;cursor: pointer;}
-.con2_box3>a>dl>span>i,
-.con2_box4>a>dl>span>i{display: inline-block;width: 24px;height: 24px;background: #eeeeee;border-radius: 50%;margin-top: 20px;border: transparent;}
-.con2_box1>a>dl>span>i::before,
-.con2_box2>a>dl>span>i::before,
-.con2_box3>a>dl>span>i::before,
-.con2_box4>a>dl>span>i::before{display: inline-block;width: 24px;height: 24px;font-size: 14px;text-align: center;line-height: 24px;color:#5a5a5a;} 
+.con2_box1>a>dl>dd>i,
+.con2_box2>a>dl>dd>i{display: inline-block;background: #fff;width: 24px;height: 24px;border-radius: 50%;margin-top: 15px;border: transparent;cursor: pointer;}
+.con2_box3>a>dl>dd>i,
+.con2_box4>a>dl>dd>i{display: inline-block;width: 24px;height: 24px;background: #eeeeee;border-radius: 50%;margin-top: 20px;border: transparent;}
+.con2_box1>a>dl>dd>i::before,
+.con2_box2>a>dl>dd>i::before,
+.con2_box3>a>dl>dd>i::before,
+.con2_box4>a>dl>dd>i::before{display: inline-block;width: 24px;height: 24px;font-size: 14px;text-align: center;line-height: 24px;color:#5a5a5a;} 
 
 /* 플러스 버튼 색상 변경 */
-.icon1.on>a>dl>span>i::before{color: #fff;}
-.icon1.on>a>dl>span>i{background: linear-gradient(to bottom right,#0bbbdb,#008bc7);}
+.icon1.on>a>dl>i::before
+.icon1.on>a>dl>dd>i::before{color: #fff;}
+.icon1.on>a>dl>i,
+.icon1.on>a>dl>dd>i{background: linear-gradient(to bottom right,#0bbbdb,#008bc7);}
 
 /* 편입기업 */
 .con2_box5{position: relative;grid-column: 1/-1;grid-row: 4/-1;margin:10px 15px 5px 0}
