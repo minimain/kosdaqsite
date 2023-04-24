@@ -108,9 +108,9 @@
     
 /* slide_arr 재생바*/
    .slide_arr{position: absolute;left: 0;bottom: 60px;display: flex;justify-content: center;justify-items: center;}
-   .slide_arr>span>ul>li{display: block;position: absolute;opacity: 0;}
-   .slide_arr>span>ul>li.on{opacity: 1;}
-   .slide_arr>span>span{color: rgb(210, 26, 26);margin-left: 20px;margin-right: 5px;}
+   .slide_arr>div>ul>li{display: block;position: absolute;opacity: 0;}
+   .slide_arr>div>ul>li.on{opacity: 1;}
+   .slide_arr>div>span{color: rgb(210, 26, 26);margin-left: 20px;margin-right: 5px;}
    .slide-bar{
      width: 150px;
      height: 5px;
@@ -232,18 +232,20 @@ background: url(../img/bg_mc02_01.jpg) no-repeat 0 -20px;}
 .con2_box4>a>dl>dt{font-size: 28px;font-weight: bold;}
 
 /* 플러스 버튼 */
-.con2_box1>a>dl>span>i,
-.con2_box2>a>dl>span>i{display: inline-block;background: #fff;width: 40px;height: 40px;border-radius: 50%;margin-top: 30px;border: transparent;}
-.con2_box3>a>dl>span>i,
-.con2_box4>a>dl>span>i{display: inline-block;width: 40px;height: 40px;background: #eeeeee;border-radius: 50%;margin-top: 25px;border: transparent;}
-.con2_box1>a>dl>span>i::before,
-.con2_box2>a>dl>span>i::before,
-.con2_box3>a>dl>span>i::before,
-.con2_box4>a>dl>span>i::before{display: inline-block;width: 40px;height: 40px;font-size: 20px;text-align: center;line-height: 40px;color:#5a5a5a;}
+.con2_box1>a>dl>i,
+.con2_box2>a>dl>i{display: inline-block;background: #fff;width: 40px;height: 40px;border-radius: 50%;margin-top: 30px;border: transparent;}
+.con2_box3>a>dl>dd>i,
+.con2_box4>a>dl>dd>i{display: inline-block;width: 40px;height: 40px;background: #eeeeee;border-radius: 50%;margin-top: 25px;border: transparent;}
+.con2_box1>a>dl>i::before,
+.con2_box2>a>dl>i::before,
+.con2_box3>a>dl>dd>i::before,
+.con2_box4>a>dl>dd>i::before{display: inline-block;width: 40px;height: 40px;font-size: 20px;text-align: center;line-height: 40px;color:#5a5a5a;}
 
 /* 플러스 버튼 색상 변경 */
-.icon1.on>a>dl>span>i::before{color: #fff;}
-.icon1.on>a>dl>span>i{background: linear-gradient(to bottom right,#0bbbdb,#008bc7);}
+.icon1.on>a>dl>i::before,
+.icon1.on>a>dl>dd>i::before{color: #fff;}
+.icon1.on>a>dl>i,
+.icon1.on>a>dl>dd>i{background: linear-gradient(to bottom right,#0bbbdb,#008bc7);}
 
 /* con2_box5 배너리스트 */
 .con2_box5{position: relative;grid-column: 1/-1;grid-row: 4/-1;
@@ -468,9 +470,9 @@ section:first-of-type{background: url(../img/bg_mv.png) no-repeat 0 100%;height:
 .titles>div>p:last-of-type>span:last-of-type{font-size: 50px;color: #272727;}
 /* slide_arr 재생바*/
 .slide_arr{position: absolute;left: 85px;bottom: 30px;display: flex;justify-content: center;justify-items: center;}
-.slide_arr>span>ul>li{display: block;position: absolute;opacity: 0;}
-.slide_arr>span>ul>li.on{opacity: 1;}
-.slide_arr>span>span{color: rgb(210, 26, 26);margin-left: 20px;margin-right: 5px;}
+.slide_arr>div>ul>li{display: block;position: absolute;opacity: 0;}
+.slide_arr>div>ul>li.on{opacity: 1;}
+.slide_arr>div>span{color: rgb(210, 26, 26);margin-left: 20px;margin-right: 5px;}
 
 .slide-bar{
   width: 150px;
@@ -838,9 +840,9 @@ section:first-of-type{background: url(../img/bg_mv.png) no-repeat 0 100%;height:
 
 /* slide_arr 재생바*/
 .slide_arr{position: absolute;left: 90px;bottom: 70px;display: flex;justify-content: center;justify-items: center;}
-.slide_arr>span>ul>li{display: block;position: absolute;opacity: 0;}
-.slide_arr>span>ul>li.on{opacity: 1;}
-.slide_arr>span>span{color: rgb(210, 26, 26);margin-left: 20px;margin-right: 5px;}
+.slide_arr>div>ul>li{display: block;position: absolute;opacity: 0;}
+.slide_arr>div>ul>li.on{opacity: 1;}
+.slide_arr>div>span{color: rgb(210, 26, 26);margin-left: 20px;margin-right: 5px;}
 
 .slide-bar{
   width: 150px;
@@ -1208,9 +1210,9 @@ section:first-of-type{background: url(../img/bg_mv.png) no-repeat 0 100%;height:
 .titles>div>p:last-of-type>span:last-of-type{font-size: 32px;color: #272727;margin-left: 7px;}
 /* slide_arr 재생바*/
 .slide_arr{position: absolute;left: 60px;bottom: 70px;display: flex;justify-content: center;justify-items: center;}
-.slide_arr>span>ul>li{display: block;position: absolute;opacity: 0;}
-.slide_arr>span>ul>li.on{opacity: 1;}
-.slide_arr>span>span{color: rgb(210, 26, 26);margin-left: 20px;margin-right: 5px;}
+.slide_arr>div>ul>li{display: block;position: absolute;opacity: 0;}
+.slide_arr>div>ul>li.on{opacity: 1;}
+.slide_arr>div>span{color: rgb(210, 26, 26);margin-left: 20px;margin-right: 5px;}
 
 .slide-bar{
     width: 150px;
@@ -1576,9 +1578,9 @@ section:first-of-type{background: url(../img/bg_mv.png) no-repeat 0 100%;height:
 
 /* slide_arr 재생바*/
 .slide_arr{position: absolute;left: 30px;bottom: 70px;display: flex;justify-content: center;justify-items: center;font-size: 15px;}
-.slide_arr>span>ul>li{display: block;position: absolute;opacity: 0;}
-.slide_arr>span>ul>li.on{opacity: 1;}
-.slide_arr>span>span{color: rgb(210, 26, 26);margin-left: 20px;margin-right: 5px;}
+.slide_arr>div>ul>li{display: block;position: absolute;opacity: 0;}
+.slide_arr>div>ul>li.on{opacity: 1;}
+.slide_arr>div>span{color: rgb(210, 26, 26);margin-left: 20px;margin-right: 5px;}
 .slide-bar{
   width: 100px;
   height: 3px;

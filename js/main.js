@@ -178,7 +178,7 @@ btnPlay.addEventListener('click', e =>{
 });
 
 // 재생바
-const nubb = document.querySelectorAll('.slide_arr>span>ul>li');
+const nubb = document.querySelectorAll('.slide_arr>div>ul>li');
 // 오토배너
 let autoBanner = () => {
  bnnNum++;
@@ -437,7 +437,7 @@ btnPlay.addEventListener('click', e =>{
 
 // 재생바
 
-const nubb = document.querySelectorAll('.slide_arr>span>ul>li');
+const nubb = document.querySelectorAll('.slide_arr>div>ul>li');
 
 // 오토배너
 let autoBanner = () => {
@@ -693,7 +693,7 @@ btnPlay.addEventListener('click', e =>{
 
 // 재생바
 
-const nubb = document.querySelectorAll('.slide_arr>span>ul>li');
+const nubb = document.querySelectorAll('.slide_arr>div>ul>li');
 
 // 오토배너
 let autoBanner = () => {
