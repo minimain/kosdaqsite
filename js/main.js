@@ -3,7 +3,9 @@ window.addEventListener('load', () => {
 
 
 if(matchMedia("screen and (min-width:1024px)").matches){
-
+  window.onresize = function(){
+    document.location.reload();
+  };
 //  하나의 창
 let sections = document.querySelectorAll("section");
 let devHeight;
@@ -329,7 +331,9 @@ let devHeight;
 
 devHeight = window.innerHeight;
 console.log(devHeight);
-
+window.onresize = function(){
+  document.location.reload();
+};
 window.addEventListener("resize",()=>{
   devHeight = window.innerHeight;
 });
@@ -589,7 +593,19 @@ stopbtn.addEventListener('click', e =>{
 
 
 } else {
-  
+  window.addEventListener('resize', function(){
+    console.log('resize event!');
+
+    // if (window.innerWidth <= 800) {
+    //   alert('현재 브라우저 크기가 <= 800px');
+    // }
+});
+
+window.onresize = function(){
+  document.location.reload();
+};
+
+
 // topmenu
 const topMenu = document.querySelector('.topMenu');
 const btnMenu = document.querySelector('.btnMenu');
@@ -759,14 +775,10 @@ lastbanner.addEventListener('click', e =>{
   bannerP.classList.toggle('up');
   bannerLists.classList.toggle('up');
   section2H.classList.toggle('up');
-})
-};
-
 });
+ };
 
-
-
-
+ });
 
 
 
