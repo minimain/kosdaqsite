@@ -116,3 +116,11 @@ h1.logo>a{display: block;width:80px;height: 43px;background: url(../img/logo.png
 /* 주메뉴 */
 nav.gnb{display: none;}
 }
+@media screen and (max-width:499px){
+    /* 로고 */
+h1.logo{z-index: 5;position: absolute;left: 18px;top: 10px;}
+h1.logo>a{display: block;width:80px;height: 43px;background: url(../img/logo.png)no-repeat 0 0;text-indent: -9999px;overflow: hidden;background-position: 0px -10px;background-size: cover;}
+
+/* 주메뉴 */
+nav.gnb{display: none;}
+}
